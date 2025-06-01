@@ -5,7 +5,7 @@ import pandas as pd
 st.markdown("""
     <style>
         .stApp {
-            background-image: url("https://i.imgur.com/E8nl2xS.png");
+            background-image: url("https://i.imgur.com/ppKFtI7.jpeg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
