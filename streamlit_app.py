@@ -14,12 +14,12 @@ st.markdown("""
         .centered-header {
             text-align: center;
             color: white;
-            margin-top: 30px;
-            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-bottom: 5px;
         }
 
         .section-spacing {
-            margin-top: 80px;
+            margin-top: 30px;
         }
 
         .stFileUploader {
@@ -43,7 +43,7 @@ st.markdown("""
         }
 
         .block-space {
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
 
         .custom-success {
@@ -62,8 +62,8 @@ st.markdown("""
             font-size: 18px;
             font-weight: bold;
             color: white;
-            margin-top: 20px;
-            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-bottom: 5px;
         }
     </style>
 """, unsafe_allow_html=True)
@@ -101,7 +101,6 @@ if uploaded_file:
         st.markdown('<div class="block-space"></div>', unsafe_allow_html=True)
         st.markdown('<div class="centered-subheader">Preview of uploaded data:</div>', unsafe_allow_html=True)
 
-        # Display preview in a medium-width column
         col7, col8, col9 = st.columns([1, 1.5, 1])
         with col8:
             st.data_editor(df.head(), use_container_width=True, disabled=True, hide_index=True)
